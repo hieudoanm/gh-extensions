@@ -1,0 +1,52 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "private": true,
+  "description": "GitHub",
+  "keywords": [
+    "gh"
+  ],
+  "homepage": "https://github.com/hieudoanm/gh#readme",
+  "bugs": {
+    "url": "https://github.com/hieudoanm/gh/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hieudoanm/gh-extensions.git"
+  },
+  "license": "GPL-3.0",
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "scripts": {
+    "format": "prettier --cache --write .",
+    "predev": "kill-port 3000",
+    "dev": "next dev",
+    "prebuild": "rimraf .next ../../docs",
+    "build": "next build",
+    "postbuild": "touch ../../docs/.nojekyll",
+    "prestart": "kill-port 3000",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.90.9",
+    "next": "16.0.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4",
+    "@types/node": "20",
+    "@types/react": "19",
+    "@types/react-dom": "19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "daisyui": "5.5.5",
+    "eslint": "9",
+    "eslint-config-next": "16.0.3",
+    "kill-port": "2.0.1",
+    "prettier": "3.6.2",
+    "prettier-plugin-tailwindcss": "0.7.1",
+    "rimraf": "6.1.0",
+    "tailwindcss": "4",
+    "typescript": "5"
+  }
+}

@@ -17,15 +17,14 @@
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
   "scripts": {
-    "docs": "rimraf docs && docsify init ./docs",
     "lint": "turbo run lint",
     "format": "turbo run format",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "prepare":"husky || true"
   },
   "packageManager": "pnpm@10.22.0",
   "devDependencies": {
-    "docsify-cli": "4.4.4",
-    "rimraf": "6.1.0",
+    "husky": "9.1.7",
     "turbo": "2.6.1"
   }
 }
