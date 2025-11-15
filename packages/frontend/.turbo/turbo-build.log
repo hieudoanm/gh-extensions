@@ -1,45 +1,0 @@
-
-
-> frontend@0.0.1 prebuild /Users/hieudoan/git/github.com/hieudoanm/apps/gh-extensions/packages/frontend
-> rimraf .next ../../docs
-
-
-> frontend@0.0.1 build /Users/hieudoan/git/github.com/hieudoanm/apps/gh-extensions/packages/frontend
-> next build
-
-   [1m[38;2;173;127;168m▲ Next.js 16.0.3[39m[22m (Turbopack)
-
-[?25l [37m[1m [22m[39m Running TypeScript  [36m.[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m..[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m...[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m.[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m..[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m...[39m[2K[1G[?25h[?25l [37m[1m [22m[39m Finished TypeScript in 1086.8ms  [36m.[39m[2K[1G[?25h [37m[1m [22m[39m Finished TypeScript in 1086.8ms     [32m[1m✓[22m[39m Finished TypeScript in 1086.8ms 
- [37m[1m [22m[39m Creating an optimized production build ...
-/*! 🌼 daisyUI 5.5.5 */
-Found 1 warning while optimizing generated CSS:
-
-[2m│ }[22m
-[2m│ @layer base {[22m
-[2m│[22m   @property --radialprogress {
-[2m┆[22m            [33m[2m^--[22m Unknown at rule: @property[39m
-[2m┆[22m
-[2m│     syntax: "<percentage>";[22m
-[2m│     inherits: true;[22m
-
- [32m[1m✓[22m[39m Compiled successfully in 2.1s
-[?25l [37m[1m [22m[39m Collecting page data using 7 workers  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data using 7 workers  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting page data using 7 workers  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data using 7 workers in 412.3ms     [32m[1m✓[22m[39m Collecting page data using 7 workers in 412.3ms 
-[?25l [37m[1m [22m[39m Generating static pages using 7 workers (0/6)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages using 7 workers (0/6)  [36m[=   ][39m[2K[1G[?25hhttps://hieudoanm-reverse-proxy.vercel.app/api?url=https%253A%252F%252Fapi.github.com%252Frepos%252Fhieudoanm%252Fhieudoanm%252Flanguages
-[?25h [32m[1m✓[22m[39m Generating static pages using 7 workers (6/6) in 227.8ms
-[?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Exporting using 7 workers (0/6)  [36m[    ][39m[2K[1G[?25h[2K[1G[?25h [32m[1m✓[22m[39m Exporting using 7 workers (6/6) in 175.2ms
-[?25l [36m.[39m [2K[1G [36m..[39m [2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization in 529.5ms     [32m[1m✓[22m[39m Finalizing page optimization in 529.5ms 
-
-[4mRoute (pages)[24m
-┌ ○ /
-├   /_app
-├ ○ /404
-├ ○ /downloads
-├ ○ /languages
-└ ○ /preview
-
-○  (Static)  prerendered as static content
-
-[?25h
-> frontend@0.0.1 postbuild /Users/hieudoan/git/github.com/hieudoanm/apps/gh-extensions/packages/frontend
-> touch ../../docs/.nojekyll
-
