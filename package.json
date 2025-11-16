@@ -6,13 +6,13 @@
     "gh",
     "cli"
   ],
-  "homepage": "https://github.com/hieudoanm/gh-extensions#readme",
+  "homepage": "https://github.com/hieudoanm/gh#readme",
   "bugs": {
-    "url": "https://github.com/hieudoanm/gh-extensions/issues"
+    "url": "https://github.com/hieudoanm/gh/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hieudoanm/gh-extensions.git"
+    "url": "git+ssh://git@github.com/hieudoanm/gh.git"
   },
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
@@ -20,7 +20,7 @@
     "lint": "turbo run lint",
     "format": "turbo run format",
     "build": "turbo run build",
-    "prepare":"husky || true"
+    "prepare": "husky || true"
   },
   "packageManager": "pnpm@10.22.0",
   "devDependencies": {

@@ -33,10 +33,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
         <meta property="og:description" content="gh extensions" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/favicon.png" />
-        <meta
-          property="og:url"
-          content="https://hieudoanm.github.io/gh-extensions"
-        />
+        <meta property="og:url" content="https://hieudoanm.github.io/gh" />
         {/* Twitter card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={APP_NAME} />
