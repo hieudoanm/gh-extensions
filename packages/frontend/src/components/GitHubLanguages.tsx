@@ -13,7 +13,7 @@ export const GitHubLanguages: FC<{
   const url = `https://api.github.com/repos/${repository}/languages`;
   const urlSearchParams = new URLSearchParams();
   urlSearchParams.set('url', encodeURIComponent(url));
-  const proxyUrl = `https://hieudoanm-reverse-proxy.vercel.app/api?${urlSearchParams.toString()}`;
+  const proxyUrl = `https://hieudoanm-proxy.vercel.app/api?${urlSearchParams.toString()}`;
   console.log(proxyUrl);
   const { isPending, error, data } = useQuery({
     queryKey: [`repository-${repository}`],
